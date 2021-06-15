@@ -22,7 +22,7 @@ We then proceed to forming a 80-20 train-test split.<br>
 After this we move to fitting the support vector classification model and start predicting.<br><br>
 <b>Evaluation of the baseline model</b><br>
 Even with the baseline model, we have been able to achieve an accuracy score of 87%.
-But we are falling behing on identifying the malignant cases. We have been able to able to identify the malign cases with a score of mere 65%. 
+But we are falling behind on identifying the malignant cases. We have been able to identify the malign cases with a score of mere 65%. 
 The cost of detecting a malignant record is much more than the cost of misidentifying a benign case as malignant. <br><br>
 <b>Improving the classification model using techniques such as Grid Search</b><br>
 The primary technique we use is the Grid Search. This technique is based on the notion of hyper parameter tuning. We supply the range of the hyper parameters we wish to tune, and multiple models are executed, finally returning us the best fit model and corresponding parameter values.<br><br>
