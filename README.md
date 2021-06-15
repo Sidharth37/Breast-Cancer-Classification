@@ -27,7 +27,7 @@ The cost of detecting a malignant record is much more than the cost of misidenti
 <b>Improving the classification model using techniques such as Grid Search</b><br>
 The primary technique we use is the Grid Search. This technique is based on the notion of hyper parameter tuning. We supply the range of the hyper parameters we wish to tune, and multiple models are executed, finally returning us the best fit model and corresponding parameter values.<br><br>
 <b>Evaluation of the improved model</b></br>
-This new improved model, sucessfully overcomes the short coming of its pre-decessor. The accuracy score we achieve using this model is 94%, which is major improvement.
-Also the score with which we are now able to detect malignant cases has rised from 65% to a whooping 93%, which is not only more than the predecessor model, but also better than techniques like mamography, which is currently used for detecting breast cancer.<br><br>
+This new improved model, sucessfully overcomes the short coming of its pre-decessor. The accuracy score we achieve using this model is 94%, which is a major improvement.
+Also, the score with which we are now able to detect malignant cases has increased from 65% to a whooping 93%, which is not only more than the predecessor model, but also better than techniques like mamography, which is currently used for detecting breast cancer.<br><br>
 <b>Word of caution</b><br>
 This in no way is supposed to replace, or surpass the current techniques, I am just proposing this as an additional check, specially taking into consideration the cost associated being less to negligible, and the possibility of lives being saved.
