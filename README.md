@@ -25,7 +25,11 @@ Even with the baseline model, we have been able to achieve an accuracy score of 
 But we are falling behind on identifying the malignant cases. We have been able to identify the malign cases with a score of mere 65%. 
 The cost of detecting a malignant record is much more than the cost of misidentifying a benign case as malignant. <br><br>
 <b>Improving the classification model using techniques such as Grid Search</b><br>
-The primary technique we use is the Grid Search. This technique is based on the notion of hyper parameter tuning. We supply the range of the hyper parameters we wish to tune, and multiple models are executed, finally returning us the best fit model and corresponding parameter values.<br><br>
+The primary technique we use is the Grid Search. This technique is based on the notion of hyper parameter tuning. We supply the range of the hyper parameters we wish to tune, based on this multiple models are executed, finally returning us the best fit model and corresponding parameter values.
+The hyperparameters we tune are gamma, cost, and kernel.<br> Gamma dictates the compleximity of the model, the higher the value of gamma the better the model fits on training dataset, but higher are the chances of overfitting, leading to the model underperforming on unseen data.<br>
+The cost parameter decides how strict your model is, and the kernel decides the type of hyper plane for the model(Projection of data to higher dimension).
+The linear kernel performs better in terms of accuracy score, but lags behind of identifying the malignant cases. As the cost identified with correctly identifying a malignant case is much higher than misclassifying a benign case as malignant, we have traded for a lower accuracy score in return for higher sensitivity towards malignant records.
+<br><br>
 <b>Evaluation of the improved model</b></br>
 This new improved model, sucessfully overcomes the short coming of its pre-decessor. The accuracy score we achieve using this model is 94%, which is a major improvement.
 Also, the score with which we are now able to detect malignant cases has increased from 65% to a whooping 93%, which is not only more than the predecessor model, but also better than techniques like mamography, which is currently used for detecting breast cancer.<br><br>
