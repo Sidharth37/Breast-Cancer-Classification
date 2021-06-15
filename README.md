@@ -13,7 +13,7 @@ Breast cancer is very treatable if you spot it early, the main objective behind 
 <br>
 <b>Importing, exploring and visualizing the features in the dataset -</b><br>
 The dataset is based on 30 features pertaining to the physical attributes of the breast like - mean radius, mean texture, mean perimeter, mean area ...
-Based on the sample we have 37% of the cases are malignant and the rest 63% cases are benign.
+Based on the sample, 37% of the cases are malignant and the rest 63% cases are benign.
 Based on the heatmap inclusive of all the features and the reuslt, the 5 most influential features correlating with the record being malignant are largest concave points, largest perimeter, largest radius, mean concave points and mean perimeter<br><br>
 <b>Creating a baseline model, for classifying medical records into benign and malignant -</b><br>
 The machine learning model we have built is based on Support Vector Machines.
