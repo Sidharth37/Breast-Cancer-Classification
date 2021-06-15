@@ -1,8 +1,8 @@
 # Breast-Cancer-Classification
 Classified medical records into benign and malignant breast cancer cases, based on 30 features.<br><br>
 <b>Business Case?</b><br>
-Mamography is one of the most prevalent way for detecting breast cancer. The sensitivity of this technique is 87%. This literally means that 13% of the cases go undected.
-Breast cancer is vry treatable if you spot it early, the main objective behind this project is improving the detection percentage of 87% which we achieve through mamography.<br>
+Mamography is one of the most prevalent way for detecting breast cancer. The sensitivity of this technique is 87%. This literally means that 13% of the cases go undetected.
+Breast cancer is very treatable if you spot it early, the main objective behind this project is improving the detection percentage of 87% which we achieve through mamography.<br>
 
 <b>The project is divided into 5 main parts:</b><br>
 1. Importing, exploring and visualizing the features in the dataset.<br>
